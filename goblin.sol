@@ -1,9 +1,9 @@
 
 /**
    GOBLIN features:
-     1% fee burned forever.
-     7% fee auto distribute to all holders.
-     40% Supply will be burned at start. 
+     2% fee burned forever.
+     8% fee auto distribute to all holders.
+     At least 40% Supply will be burned at start. 
      
 */
 
@@ -479,8 +479,8 @@ contract goblin is Context, IBEP20, Ownable {
     uint256 private _tFeeTotal;
     uint256 private _tBurnTotal;
     
-    uint256 private constant     _TAX_FEE = 700;
-    uint256 private constant    _BURN_FEE = 100;
+    uint256 private constant     _TAX_FEE = 800;
+    uint256 private constant    _BURN_FEE = 200;
     uint256 private constant _MAX_TX_SIZE = 10000000000000 * _DECIMALFACTOR;
 
     constructor () public {
