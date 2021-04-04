@@ -3,7 +3,7 @@
    GOBLIN features:
      2% fee burned forever.
      8% fee auto distribute to all holders.
-     At least 40% Supply will be burned at start. 
+     At least 50% Supply will be burned at start. 
      
 */
 
